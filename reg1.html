@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Register Form</title>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+    <script src="reg.js" type="text/javascript" ></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="regform"><h1>Registration Form</h1></div>
+      <div class="main">
+          <form>
+              <div id="name">
+                  <h2 class="name">Name</h2>
+                  <input class="firstname" type="text" name="first_name">
+                  <label class="firstlabel">firstname</label>
+                  <input class="lastname" type="text" name="last_name">
+                  <label class="lastlabel">lastname</label>
+              </div>
+              <h2 class="name">company</h2>
+              <input class="company" type="text" name="company">
+              <h2 class="name">Email</h2>
+              <input class="email" type="text" name="email">
+              <h2 class="name">Phone</h2>
+              <input class="name" type="text" name="area_code">
+              <label class="areacode">Area Code</label>
+              <input class="number" type="text" name="phone">
+              <label class="phonenumber">Phonenumber</label>
+              <h2 class="name">Subject</h2>
+              <select class="option" name="subject">
+                  <option disabled="disabled" selected="selected">choose option</option>
+                  <option>Subject1</option>
+                  <option>Subject2</option>
+                  <option>Subject3</option>
+                  
+              </select>           
+              <h2 id="student">Are you Beginner?</h2>
+              <label class="radio"> 
+                  <input class="radio-one" type="radio" checked="checked" name="">;
+                  <span class="checkmark">
+                      yes
+                  </span>
+              </label>
+              <label class="radio"> 
+                <input class="radio-two" type="radio" checked="checked" name="">;
+                <span class="checkmark">
+                    No
+                </span>
+            </label>
+                  <button type="submit">Register</button>
+          </form>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
